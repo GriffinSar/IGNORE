@@ -35,3 +35,12 @@ img {
     width: 100px;
     height: 50px;
   }
+
+/* The container <div> - is used to position the dropdown content */
+.dropdown {
+    padding-top: 4rem;
+    padding-left: 2rem; 
+    border-radius: 4px;
+    width: 40%;
+    float: left;  
+  }
