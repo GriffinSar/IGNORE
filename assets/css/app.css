@@ -23,7 +23,6 @@ img {
     height: 100px;  
   }
 
-
 /* Dropdown Button */
 .dropbtn {
     background-color: #ff9900;
@@ -69,3 +68,15 @@ img {
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ff9900;}
+
+
+
+/*body*/
+
+body {
+    background:url(../images/star-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
