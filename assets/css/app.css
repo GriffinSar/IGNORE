@@ -80,3 +80,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+/* ship gif */
+.ship {
+    height: 30%;
+    margin-left: 350px;
+  }
