@@ -5,8 +5,6 @@
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 /*Header*/
@@ -23,4 +21,17 @@ header {
   
 img {
     height: 100px;  
+  }
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ff9900;
+    border-radius: 4px;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    height: 50px;
   }
