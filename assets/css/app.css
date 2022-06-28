@@ -66,3 +66,6 @@ img {
 .dropdown:hover .dropdown-content {  
     display: flex;
   }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ff9900;}
