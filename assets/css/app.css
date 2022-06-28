@@ -86,3 +86,9 @@ body {
     height: 30%;
     margin-left: 350px;
   }
+
+  h1 {
+    font-size: 5.4rem;
+    color: #f6cf23;
+    margin-bottom: 5rem;
+}
