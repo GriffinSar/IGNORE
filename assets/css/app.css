@@ -139,3 +139,13 @@ body {
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
+
+/*footer*/
+footer{
+  display:flex;
+  height: 100px;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+}
+
