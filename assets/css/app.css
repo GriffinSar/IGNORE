@@ -92,3 +92,9 @@ body {
     color: #f6cf23;
     margin-bottom: 5rem;
 }
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
