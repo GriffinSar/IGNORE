@@ -97,4 +97,17 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;}
+
+  .cont-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont-center {
+    justify-content: center;
+    align-items: center;
+  }
