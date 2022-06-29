@@ -149,3 +149,22 @@ footer{
   align-items:center;
 }
 
+/* sets the list horizontally*/
+.social-networks > li {
+  display: inline;
+  float:left;
+  margin:20px;
+}
+
+/* appearance of list items*/
+.social-networks i {
+  font-size: 2.5rem;
+  margin: 1%;
+  padding: 3% 5%;
+  color:#ff9900;
+}
+
+/*sets yellow when hover*/
+li i:hover {
+  color: #f6cf23;
+}
