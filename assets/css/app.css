@@ -128,3 +128,11 @@ body {
   color: #040404;
   background-color: #ff9900;
 }
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #f6cf23;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(107,107,178, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
