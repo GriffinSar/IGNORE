@@ -40,3 +40,9 @@
     background-color: #6b6bb2;
     border-radius: 6px;
 }
+
+.choice-letter {
+    padding: 1.5rem 2.5rem;
+    background-color: #cc99cc;
+    color: white;
+}
