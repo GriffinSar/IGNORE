@@ -169,3 +169,12 @@ footer{
 li i:hover {
   color: #f6cf23;
 }
+
+/*Media Queries*/
+
+/*for screens max-width 890px -medium*/
+@media screen and (max-width: 425px) {
+  .dropbtn {
+    width: 75%;
+  }
+}
