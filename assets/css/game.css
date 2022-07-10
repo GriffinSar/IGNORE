@@ -1,0 +1,30 @@
+#game {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: pink;
+   
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  
+  .text-center {
+    text-align: center;
+  }
