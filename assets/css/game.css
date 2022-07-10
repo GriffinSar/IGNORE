@@ -1,7 +1,11 @@
+.game {
+    display: flex;
+}
+
 .choice {
     display: flex;
     margin-bottom: 0.5rem;
-    width: 100%;
+    width: 75%;
     font-size: 1.8rem;
     border: 0.1rem solid #6b6bb2;
     background-color: #6b6bb2;
@@ -12,4 +16,10 @@
     padding: 1.5rem 2.5rem;
     background-color: #cc99cc;
     color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    color: black;
 }
