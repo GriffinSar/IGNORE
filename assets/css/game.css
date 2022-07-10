@@ -1,7 +1,11 @@
-.game {
-    display: flex;
+h2 {
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    color: white;
 }
 
+/*Quiz choices */
 .choice {
     display: flex;
     margin-bottom: 0.5rem;
@@ -22,4 +26,19 @@
     padding: 1.5rem;
     width: 100%;
     color: black;
+}
+
+/*hud styling*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
 }
