@@ -52,3 +52,33 @@
     width: 100%;
     color: black;
 }
+
+/* HUD */
+
+#hud {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#Bar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid green;
+    margin-top: 1.5rem;
+}
+
+#BarFull {
+  height: 3.4rem;
+  background-color: green;  
+  width: 0%;
+}
