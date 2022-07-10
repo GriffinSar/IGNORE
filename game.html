@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/game.css">
     <title>Document</title>
 </head>
 <body>
@@ -26,7 +27,45 @@
         </nav>
     </header>
     
-    <div></div>
+    <div class="QuixBox">
+        <div id="game">
+            <div id = "hud">
+              <div id = "hud-item">
+                  <p id="progressText" class = "Score-text">
+                      Question  
+                  </p>
+                  <div id="Bar">
+                     <div id="BarFull"></div> 
+                  </div>
+              </div>  
+              <div id = "hud-item">
+                <p class = "hud-prefix">
+                    Score 
+                </p>
+                <h1 class="hud-main-text" id="score">
+                    0
+                </h1>
+            </div>   
+        </div>
+            <h2 id="question">What is the answer to this question?</h2>
+            <div class="choice">
+                <p class="choice-letter">A</p>
+                <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice">
+                <p class="choice-letter">B</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice">
+                <p class="choice-letter">C</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice">
+                <p class="choice-letter">D</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class = "footer-list">
