@@ -43,7 +43,7 @@
     border: 0.1rem solid #6b6bb2;
     background-color: #6b6bb2;
     border-radius: 6px;
-    height: 65px;
+    height: 60px;
 }
 
 .choice-letter {
@@ -60,7 +60,7 @@
     width: 100%;
     color: black;
     display: flex;
-    
+    align-items: center;
 }
 
 /*Change color of box if answer is right or wrong*/
@@ -78,6 +78,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 140px;
 }
 
 .hud-prefix {
