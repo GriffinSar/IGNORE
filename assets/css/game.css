@@ -46,12 +46,23 @@
     background-color: #cc99cc;
     color: white;
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 .choice-text {
     padding: 1.5rem;
     width: 100%;
     color: black;
+}
+
+/*Change color of box if answer is right or wrong*/
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
 }
 
 /* HUD */
