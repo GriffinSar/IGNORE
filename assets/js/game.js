@@ -135,36 +135,22 @@ let questions = [
     },
 ];
 
-//Function to begin game
+
 startGame = () => {
     questionCounter = 0;
-    score =  0;
-    availableQuesions = [...questions];
-    getNewQuestion();
-    countdownTimer = 120;
+    score = 0;
+    availableQuestions = [...questions];
+    console.log(availableQuestions);
 };
 
-//Get New question
-getNewQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        localStorage.setItem("mostRecentScore", score);
-        //go to the end page
-        return window.location.assign("/end.html");
-    }
-    questionCounter++;
-  progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-  //Update the progress bar
-  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+startGame();
 
-  const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-  currentQuestion = availableQuesions[questionIndex];
-  question.innerText = currentQuestion.question;
 
-  choices.forEach(choice => {
-    const number = choice.dataset["number"];
-    choice.innerText = currentQuestion["choice" + number];
-  });
 
-  availableQuesions.splice(questionIndex, 1);
-  acceptingAnswers = true;
-};
+
+  
+ 
+  
+  
+  
+ 
