@@ -1,8 +1,14 @@
+//HTML variables
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
+let questionCounter = 0;
+let currentQuestion = {};
+let score = 0;
+let availableQuesions = [];
+var countDownTimer = 120;
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
@@ -128,10 +134,12 @@ let questions = [
     },
 ];
 
+//Function to begin game
 startGame = () => {
     questionCounter = 0;
-    score = 0;
+    score =  0;
     availableQuesions = [...questions];
     getNewQuestion();
-    countdownTimer = 120;
-  };
+    console.log(hello);
+
+}
