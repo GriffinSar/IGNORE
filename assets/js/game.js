@@ -151,10 +151,13 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionList];
     question.innerText = currentQuestion.question;
 
+    //pulls in answer choices from the question list
     choices.forEach( choice =>{
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number]
-    })
+    });
+
+    availableQuestions.splice(questionList, 1);
 }
 
 startGame();
