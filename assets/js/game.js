@@ -140,8 +140,22 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
+    getNewQuestion();
 };
+
+getNewQuestion = () => {
+    //increment question counter by 1
+    questionCounter++;
+    //Get random question
+    const questionList = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionList];
+    question.innerText = currentQuestion.question;
+
+    choices.forEach( choice =>{
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number]
+    })
+}
 
 startGame();
 
