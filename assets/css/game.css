@@ -43,6 +43,7 @@
     border: 0.1rem solid #6b6bb2;
     background-color: #6b6bb2;
     border-radius: 6px;
+    height: 65px;
 }
 
 .choice-letter {
@@ -58,6 +59,8 @@
     padding: 1.5rem;
     width: 100%;
     color: black;
+    display: flex;
+    
 }
 
 /*Change color of box if answer is right or wrong*/
