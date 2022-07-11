@@ -11,6 +11,10 @@
     background-color: pink;  
 }
 
+#question {
+  font-size: 2.2em;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -94,3 +98,4 @@
   background-color: green;  
   width: 0%;
 }
+
